@@ -52,7 +52,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_TAR_BINARY=1
 	export OF_SKIP_MULTIUSER_FOLDERS_BACKUP=1
 	export OF_CLOCK_POS=1
-	export FOX_DELETE_AROMAFM=0
+	export FOX_DELETE_AROMAFM=1
 	export OF_USE_GREEN_LED=0
 
 	# OTA
@@ -70,7 +70,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
         # R11
     	export FOX_R11=1
-	export FOX_VERSION=R11.0
+	export FOX_VERSION=R11.0_1
 	export OF_PATCH_AVB20=1
 	export OF_MAINTAINER=Joaquin
     	export FOX_ADVANCED_SECURITY=1
