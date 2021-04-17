@@ -69,8 +69,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	#export OF_HIDE_NOTCH=1
 
         # R11
-    	export FOX_R11=1
-	export FOX_VERSION=R11.0_3-1
+    	export FOX_R11=2
+	export FOX_VERSION=R11.1_0
 	export OF_PATCH_AVB20=1
 	export OF_MAINTAINER=Joaquin
     	export FOX_ADVANCED_SECURITY=1
@@ -85,5 +85,3 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 fi
 #
-
-
