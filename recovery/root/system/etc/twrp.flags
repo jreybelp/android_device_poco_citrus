@@ -40,5 +40,5 @@
 /cust_image     emmc    /dev/block/bootdevice/by-name/cust											flags=display="Cust_Image";backup=1;flashimg=1
 
 # Removable storage
-/usb_otg	vfat    /dev/block/sdg1										/dev/block/sdg			flags=fsflags=utf8;display="USB-Storage";storage;removable
-/sdcard1	vfat    /dev/block/mmcblk0p1									/dev/block/mmcblk0		flags=display="MicroSD";storage;removable
+/usb_otg	vfat    /dev/block/sdg1										/dev/block/sdg			flags=fsflags=utf8;display="USB-Storage";wipeingui;storage;removable
+/sdcard1	vfat    /dev/block/mmcblk0p1									/dev/block/mmcblk0		flags=display="MicroSD";wipeingui;storage;removable
